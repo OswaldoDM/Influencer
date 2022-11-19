@@ -1,13 +1,43 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
+
+
+.font-manrope {
+
+    font-family: 'Manrope', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+.dashed-section {
+
+    outline: 2px dashed black;
 }
+
+.solid {
+    outline: 2px solid black;
+}
+
+.dashed-box {
+    outline: 1px dashed rgb(255, 255, 255);
+    
+}
+
+
+
+.transition-css {
+
+    transition: height, 0.3s ;    
+    
+}
+
+
+
+
+
+
+
+
