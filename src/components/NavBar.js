@@ -25,10 +25,10 @@ return(
 
       <div className= 
       {`hidden md:flex items-center md:gap-5 lg:gap-7 
-      text-sm lg:text-base font-semibold 
+      text-sm lg:text-base font-semibold
       `}>
 
-        <a href="#" className= "flex items-center gap-1" >
+        <a href="#" className= "flex items-center gap-1 dropdown" >
 
             <p className= 
             {`cursor-pointer transition duration-300 
@@ -43,9 +43,15 @@ return(
 
             </i>
 
+            <div className="dropdown-content">
+                <a href="#" className="">Link 1</a>
+                <a href="#" className="">Link 2</a>
+                <a href="#" className="">Link 3</a>
+            </div>
+
         </a>
     
-        <a href="#" className= "flex items-center gap-1">
+        <a href="#" className= "flex items-center gap-1 dropdown">
 
             <p className= 
                 {`cursor-pointer transition duration-300 
@@ -59,13 +65,21 @@ return(
             `}>
 
             </i>
+
+            <div className="dropdown-content">
+                <a href="#" className="">Link 1</a>
+                <a href="#" className="">Link 2</a>
+                <a href="#" className="">Link 3</a>
+            </div>
+
+            
         </a>
         
         <a href="#" className= 
         {`hover:text-myPurple cursor-pointer 
         transition duration-300
         `}>
-            Blog
+            Features
         </a>
         
         <a href="#" className= 
@@ -135,7 +149,7 @@ return(
             </a>
 
             <a className="hover:text-myPurple focus:text-myPurple" href="/#">
-                    Blog
+                    Features
             </a>
 
             <a className="hover:text-myPurple focus:text-myPurple" href="/#">

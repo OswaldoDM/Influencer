@@ -32,7 +32,7 @@ return(
         </h3>
 
         <h1 className=
-        {`text-[40px] lg:text-[45px] 2xl:text-[67px]
+        {`text-[40px] lg:text-[45px] 2xl:text-[60px]
         leading-10 lg:leading-[1.20] text-center
         font-extrabold font-manrope mb-10 lg:mb-5
         `}>

@@ -46,13 +46,15 @@ before:absolute before:bg-myTpurple
         {`bg-myPurple flex-1 
         flex flex-col justify-center 
         px-10 py-14 gap-5 rounded-xl
+        2xl:gap-8
+        
         `}>
 
             <h3 className="text-gray-100">JOIN WITH OUR COMMUNITY</h3>
 
             <h1 className= 
             {`font-manrope text-gray-100 font-extrabold 
-            text-3xl sm:text-4xl
+            text-3xl sm:text-4xl 2xl:text-5xl
             `}>
                 Set your social media<br/>growth on autopilot
             </h1>
@@ -65,8 +67,9 @@ before:absolute before:bg-myTpurple
                 placeholder="Your Email Address" type= "email"
                 className= 
                 {`bg-[#a29ce8ba] placeholder:text-gray-800
-                p-3 sm:p-4 text-xs sm:text-sm 
-                font-manrope rounded-l-lg w-[70%]
+                p-3 sm:p-4 2xl:p-5 text-xs 
+                sm:text-sm 2xl:text-base
+                font-manrope rounded-l-lg w-[70%] 
                 focus:outline-none
                 `}>
 
@@ -74,7 +77,8 @@ before:absolute before:bg-myTpurple
 
                 <button className= 
                 {`text-gray-100 font-manrope  
-                p-3 sm:py-4 sm:px-6 text-xs sm:text-sm
+                p-3 sm:py-4 2xl:py-5 2xl:px-7 sm:px-6 
+                text-xs sm:text-sm 2xl:text-base
                 bg-myOrange rounded-r-lg
                 hover:bg-orange-400 transition duration-300
                 `}>
@@ -82,29 +86,8 @@ before:absolute before:bg-myTpurple
 
                 </button>
 
-                <p className= 
-                
-                // {` ${emailRegex.test(inputValue) 
-
-                // ? 
-                // `font-manrope mt-5 bg-green-500
-                //  rounded-lg py-2 text-gray-100 
-                //  text-center w-[30%] block `
-
-                // : 
-                // `font-manrope mt-5 bg-red-500
-                //  rounded-lg py-2 text-gray-100 
-                //  text-center w-[30%] block `
-
-                // }
-                
-                // ${inputValue === '' && "bg-transparent"}
-                
-                // ` }
-                
-                
-                { `font-manrope mt-5 text-gray-100 `}          
-                
+                <p className=          
+                {`font-manrope mt-5 text-gray-100`} 
                 >
 
                 {message}

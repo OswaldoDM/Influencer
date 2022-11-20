@@ -11,28 +11,44 @@
     font-family: 'Manrope', sans-serif;
 }
 
-
-.dashed-section {
-
-    outline: 2px dashed black;
-}
-
-.solid {
-    outline: 2px solid black;
-}
-
-.dashed-box {
-    outline: 1px dashed rgb(255, 255, 255);
-    
-}
-
-
-
 .transition-css {
 
     transition: height, 0.3s ;    
     
 }
+
+.dropdown {
+    position: relative;
+    
+  }  
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 125px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    top: 20px;
+    padding-top: 5px;
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  
 
 
 

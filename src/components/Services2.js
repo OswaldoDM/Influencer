@@ -24,7 +24,7 @@ return(
             `}>
 
                 <h1 className= 
-                {`text-[40px] lg:text-[45px] 2xl:text-[67px] 
+                {`text-[40px] lg:text-[45px] 2xl:text-[60px] 
                 leading-10 lg:leading-[1.20] 
                 font-extrabold font-manrope 
                 `}>
