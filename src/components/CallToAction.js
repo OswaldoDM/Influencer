@@ -12,6 +12,7 @@ export function CallToAction() {
     const handleChange = (e) => setInputValue(e.target.value)
 
     const handleSubmit = (e) => {
+        
         e.preventDefault()
 
         emailRegex.test(inputValue)
@@ -19,6 +20,8 @@ export function CallToAction() {
         :  setMessage('Invalid Email Address')
         
         inputValue === '' && setMessage('')
+
+        
     }      
 
         

@@ -19,7 +19,6 @@ return (
 <>
 
 <NavBar />
-
 <Hero />
 <Sponsors />
 <Features />

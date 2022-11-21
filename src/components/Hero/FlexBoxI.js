@@ -7,7 +7,7 @@ import sa5 from './../../assets/SA5.jpeg'
 import sa6 from './../../assets/SA6.png'
 import sa7 from './../../assets/SA7.jpg'
 import orangeA from './../../assets/orangeA.png'
-
+import 'animate.css';
 
 
 export function FlexBoxI() {
@@ -21,11 +21,14 @@ return (
 relative sm:text-center lg:text-left
 flex flex-col sm:items-center lg:items-start
 lg:block
+animate__animated
+animate__fadeInLeft
 `}>
 
     <h1 className= 
     {` text-6xl 2xl:text-[67px] leading-[4rem] 
     font-extrabold font-manrope
+    
     `}>Increase your followers on social media
     </h1>
 

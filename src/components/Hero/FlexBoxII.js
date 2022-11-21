@@ -9,7 +9,7 @@ import {FaFacebookF} from "react-icons/fa";
 import {FaTelegram} from "react-icons/fa";
 import {FaTwitter} from "react-icons/fa";
 import {BiUpArrow} from "react-icons/bi";
-
+import 'animate.css';
 
 export function FlexBoxII() {     
     
@@ -20,14 +20,15 @@ return (
     {`h-[466px] w-[160px] 
     relative
     hidden lg:flex lg:flex-col
-    pt-2 
+    pt-2 animate__animated    
+    animate__fadeInUp
     `}>
         <img src= {video}></img>
         <img src= {playIcon} className= "absolute top-10 left-16"></img>
     
         <h3 className= 
-        {`text-[11px] font-extrabold font-manrope leading-4
-        mt-2
+        {`text-[11px] font-extrabold 
+        font-manrope leading-4 mt-2        
         `}>How to gain more followers on youtube?
         </h3>
     
@@ -54,7 +55,8 @@ return (
     <div className= 
     {`w-[40%] h-[466px] 
     hidden lg:flex justify-center
-    relative
+    relative animate__animated    
+    animate__fadeInRight
     `}>
         <div className= 
         {`h-[366px] w-[320px]
@@ -71,7 +73,8 @@ return (
         {`h-[80px] w-[80px] 
         bg-myOrange 
         absolute top-[362px] lg:right-[242px] xl:right-[288px]
-        2xl:right-[348px]`}>
+        2xl:right-[348px]
+        `}>
 
         </div>
                 
@@ -79,7 +82,8 @@ return (
         {`h-[40px] w-[40px] 
         bg-myLightBlue 
         absolute top-[323px] lg:right-[320px] xl:right-[366px]
-        2xl:right-[425px]`}>
+        2xl:right-[425px]
+        `}>
 
         </div>
     

@@ -2,6 +2,7 @@ import sVector from '../assets/SVector.png'
 import image1 from '../assets/Image1.png'
 
 
+
 export function Services1 () {
 
 return(
@@ -17,7 +18,7 @@ return(
     `}>
         <div className= 
         {`w-[50%] md:w-[70%] lg:w-[60%] 
-        xl:w-[45%] 2xl:w-[45%]
+        xl:w-[45%] 2xl:w-[45%]        
         `}>
 
             <h1 className= 
