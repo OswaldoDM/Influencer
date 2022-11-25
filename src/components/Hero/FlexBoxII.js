@@ -9,7 +9,7 @@ import {FaFacebookF} from "react-icons/fa";
 import {FaTelegram} from "react-icons/fa";
 import {FaTwitter} from "react-icons/fa";
 import {BiUpArrow} from "react-icons/bi";
-import 'animate.css';
+
 
 export function FlexBoxII() {     
     
@@ -20,8 +20,7 @@ return (
     {`h-[466px] w-[160px] 
     relative
     hidden lg:flex lg:flex-col
-    pt-2 animate__animated    
-    animate__fadeInUp
+    pt-2 
     `}>
         <img src= {video}></img>
         <img src= {playIcon} className= "absolute top-10 left-16"></img>
@@ -55,8 +54,7 @@ return (
     <div className= 
     {`w-[40%] h-[466px] 
     hidden lg:flex justify-center
-    relative animate__animated    
-    animate__fadeInRight
+    relative 
     `}>
         <div className= 
         {`h-[366px] w-[320px]
