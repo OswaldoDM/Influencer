@@ -61,7 +61,7 @@ return (
         bg-myLightSky
             ml-6                
         `}>
-            <img src= {woman} className = 
+            <img src= {woman} loading='lazy' className = 
             {`relative bottom-10 right-4 w-[300px]`}>                    
             </img>
     
