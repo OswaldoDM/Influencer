@@ -12,12 +12,15 @@ return(
 
     <div className= 
     {`container mx-auto
-    px-8 py-20 sm:pl-10 md:pr-0 md:pl-10 
-    lg:pl-4 xl:px-8 xl:pt-14 xl:pb-6 2xl:px-16
-    flex items-center justify-between
+    flex flex-col items-center justify-between
+    px-8 py-10 
+    sm:pt-10 sm:pl-16 sm:flex-row
+    md:pr-0 md:pl-10 
+    lg:pl-8 lg:pb-0
+    xl:px-8 xl:pt-14 xl:pb-6 2xl:px-16    
     `}>
         <div className= 
-        {`w-[50%] md:w-[70%] lg:w-[60%] 
+        {`sm:w-[50%] md:w-[70%] lg:w-[60%] 
         xl:w-[45%] 2xl:w-[45%]        
         `}>
 
@@ -25,6 +28,7 @@ return(
             {`text-[40px] lg:text-[45px] 2xl:text-[60px] 
             leading-10 lg:leading-[1.20] 
             font-extrabold font-manrope 
+            
             `}>
 
             Get thousands<br/>of active followers

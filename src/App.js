@@ -30,7 +30,6 @@ return (
 <CTA />
 <Footer />
 
-
 </>
   );
 }

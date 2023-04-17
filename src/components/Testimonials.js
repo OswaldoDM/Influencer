@@ -18,9 +18,11 @@ return(
 
     <div className=
     {`container mx-auto flex
-    flex-col items-center justify-center 
-    gap-5
-    px-8 py-24 lg:py-0 lg:pb-10
+    flex-col items-center justify-center gap-5    
+    px-8 pt-8 pb-16 
+    sm:py-20  
+    md:pt-12 md:pb-20 
+    lg:py-0
     `}>
 
         <h3 className=
@@ -41,7 +43,7 @@ return(
 
         <div className=
         {`flex flex-col lg:flex-row 
-        items-center lg:justify-center gap-24 
+        items-center lg:justify-center gap-24         
         `}>
 
             <div className=

@@ -23,8 +23,6 @@ export function CallToAction() {
 
         
     }      
-
-        
     
 
 return(
@@ -39,7 +37,8 @@ before:absolute before:bg-myTpurple
 `}>    
 
     <div className= 
-    {`container mx-auto py-36 px-8 
+    {`container mx-auto py-24 px-8 
+    sm:py-28
     md:px-16 lg:px-40 xl:px-8 
     relative flex items-center 
     justify-center
@@ -72,7 +71,7 @@ before:absolute before:bg-myTpurple
                 {`bg-[#a29ce8ba] placeholder:text-gray-800
                 p-3 sm:p-4 2xl:p-5 text-xs 
                 sm:text-sm 2xl:text-base
-                font-manrope rounded-l-lg w-[70%] 
+                font-manrope rounded-l-lg w-[60%] sm:w-[70%]
                 focus:outline-none
                 `}>
 

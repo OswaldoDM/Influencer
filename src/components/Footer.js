@@ -10,9 +10,9 @@ return(
 
     <div className= 
     {`container mx-auto 
-    md:px-8 pt-10 pb-16 
+    md:px-8 pt-10 pb-10 sm:pb-16 
     flex flex-col md:flex-row 
-    gap-16 md:gap-0
+    gap-10 sm:gap-16 md:gap-0
     `}>
 
         <div className="flex-1 text-center md:text-start">
@@ -39,14 +39,15 @@ return(
         </div>
 
         <div className= 
-        {`flex-1 flex justify-around 
+        {`flex-1 flex flex-col sm:flex-row justify-around 
         md:justify-between lg:justify-around 
         text-gray-300 font-manrope
+        text-center sm:text-left gap-10 sm:gap-0
         `}>
 
             <div className="flex flex-col gap-3 ">
 
-                <h2 className="font-semibold text-lg mb-2">Company</h2>
+                <h2 className="font-semibold text-xl sm:text-lg mb-2">Company</h2>
                 <p className="text-sm">About Us</p>
                 <p className="text-sm">Careers</p>
                 <p className="text-sm">Blog</p>
@@ -56,7 +57,7 @@ return(
 
             <div className="flex flex-col gap-3 ">
 
-                <h2 className="font-semibold text-lg mb-2">Product</h2>
+                <h2 className="font-semibold text-xl sm:text-lg mb-2">Product</h2>
                 <p className="text-sm">Facebook Followers</p>
                 <p className="text-sm">Instagram Followers</p>
                 <p className="text-sm">Twitter Followers</p>
@@ -66,28 +67,32 @@ return(
 
             <div className="flex flex-col items-center gap-3">
 
-                <h2 className="font-semibold text-lg ">Contact</h2>
+                <h2 className="font-semibold text-xl sm:text-lg ">Follow Us</h2>
 
-                <a 
-                href="https://api.whatsapp.com/send/?phone=4244181500&text&type=phone_number&app_absent=0" 
-                target= "_blank">
+                <div className="flex flex-row sm:flex-col gap-3 sm:gap-0">
 
-                    <i className ="fa-brands fa-whatsapp text-xl"></i>
-                </a>                
+                    <a 
+                    href="https://api.whatsapp.com/send/?phone=4244181500&text&type=phone_number&app_absent=0" 
+                    target= "_blank">
 
-                <a 
-                href="https://www.linkedin.com/in/oswaldo-diaz-milanes-951319146/" 
-                target= "_blank" >
-                    
-                    <i className ="fa-brands fa-linkedin text-xl"></i>
-                </a>
+                        <i className ="fa-brands fa-whatsapp text-xl"></i>
+                    </a>                
 
-                <a 
-                href="mailto:oswaldoe1992@gmail.com" 
-                target= "_blank" >
-                    
-                    <i className ="fa-solid fa-square-envelope text-xl"></i>
-                </a>
+                    <a 
+                    href="https://www.linkedin.com/in/oswaldo-diaz-milanes-951319146/" 
+                    target= "_blank" >
+                        
+                        <i className ="fa-brands fa-linkedin text-xl"></i>
+                    </a>
+
+                    <a 
+                    href="mailto:oswaldoe1992@gmail.com" 
+                    target= "_blank" >
+                        
+                        <i className ="fa-solid fa-square-envelope text-xl"></i>
+                    </a>
+
+                </div>
 
             </div>
 

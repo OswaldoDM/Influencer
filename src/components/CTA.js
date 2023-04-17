@@ -20,7 +20,7 @@ border-b-2 border-gray-600
 
             <h1 className= 
             {`text-gray-100 font-manrope 
-            font-[400] text-6xl leading-tight
+            font-[400] text-6xl leading-none sm:leading-tight
             `}>
                 Join millions of<br/>creative people with us
             </h1>

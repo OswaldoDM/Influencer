@@ -13,7 +13,7 @@ return(
 
     <div className= 
     {` container mx-auto 
-    px-8 lg:px-4 xl:px-8 pb-10 2xl:px-16 pt-16 lg:pt-32
+    px-8 lg:px-8 pb-10 2xl:px-16 pt-16 lg:pt-32
     `}>
 
         <h2 className= 

@@ -18,13 +18,13 @@ return (
 
 <div className= 
 {`lg:w-[50%] lg:h-[466px] 
-relative sm:text-center lg:text-left
-flex flex-col sm:items-center lg:items-start
+relative text-center lg:text-left
+flex flex-col items-center lg:items-start
 lg:block
 `}>
 
     <h1 className= 
-    {` text-6xl 2xl:text-[67px] leading-[4rem] 
+    {` text-6xl 2xl:text-[67px] leading-[3.8rem] sm:leading-[4rem] 
     font-extrabold font-manrope
     
     `}>Increase your followers on social media
@@ -34,6 +34,7 @@ lg:block
     {`mt-5 mb-6
     font-medium text-base lg:text-sm 
     xl:text-base font-manrope
+    px-5 sm:px-0
     `}>Yet bed any for travelling assistance indulgence unpleasing.<br/> 
         Not thoughts all exercise blessing. 
         Indulgence way<br/> everything joy alteration boisterous the attachment.

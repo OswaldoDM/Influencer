@@ -11,8 +11,10 @@ return(
     {`container mx-auto
     flex flex-col lg:flex-row
     items-center justify-between
-    px-8 py-10 md:px-10 
-    lg:px-4 lg:py-48 xl:px-8    
+    px-8 py-10 
+    sm:px-16     
+    lg:px-8 lg:py-24
+    xl:py-48        
     `}>
 
         <div className=

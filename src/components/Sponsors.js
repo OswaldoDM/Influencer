@@ -14,7 +14,7 @@ return(
 
     <div className= 
     {` container mx-auto 
-    px-8 mb-2 lg:px-4 xl:px-8 2xl:px-16
+    px-8 mb-2 lg:px-8 2xl:px-16
     flex flex-col items-center justify-center
     
     `}>
@@ -22,13 +22,13 @@ return(
         <div>
             <h2 className= 
             {`font-manrope font-bold 
-            pb-10 lg:pb-10 pt-5
+            pb-10 lg:pb-10 pt-5 text-center lg:text-start
             `}>
                 Trusted By Over 100+ Startups and freelance business
             </h2>
         </div>
 
-        <div className= {`flex gap-4 sm:gap-6 items-center justify-center`}>
+        <div className= {`flex flex-wrap gap-4 sm:gap-6 items-center justify-center`}>
             <img src= {logos} className= 
             {`hidden lg:block 2xl:pr-5
             `}/>        

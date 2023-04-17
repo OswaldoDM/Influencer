@@ -11,9 +11,9 @@ return(
 <nav className="bg-gray-100 antialiased">
 
     <div className= 
-    {`container mx-auto h-24
+    {`container mx-auto h-14 sm:h-24
     flex justify-between items-center
-    px-4 sm:px-2 md:px-3 xl:px-8 2xl:px-16
+    px-4 md:px-8 2xl:px-16
     `}>     
           
         <h2 className= 
@@ -29,19 +29,7 @@ return(
       `}>
 
         <a href="#" className= "flex items-center gap-1 dropdown" >
-
-            <p className= 
-            {`cursor-pointer transition duration-300 
-            hover:text-myPurple  
-            `}>Product
-            </p>
-
-            <i className= 
-            {`uil uil-angle-down 
-            cursor-pointer text-lg
-            `}>
-
-            </i>
+            
 
             <div className="dropdown-content">
                 <a href="#" className="">Link 1</a>
@@ -56,7 +44,7 @@ return(
             <p className= 
                 {`cursor-pointer transition duration-300 
                 hover:text-myPurple
-                `}>Packages
+                `}>Services
             </p>
 
             <i className= 
@@ -79,7 +67,7 @@ return(
         {`hover:text-myPurple cursor-pointer 
         transition duration-300
         `}>
-            Features
+            FAQ
         </a>
         
         <a href="#" className= 
@@ -135,21 +123,17 @@ return(
     {open ? 
 
         <div className= 
-        {`md:hidden flex justify-between items-center     
-        text-lg font-semibold h-[50px] transition-css
-        px-12 sm:px-24 
-        `}>            
-
-            <a className="hover:text-myPurple focus:text-myPurple" href="/#">
-                    Product
-            </a>
+        {`md:hidden flex flex-wrap justify-between items-center     
+        text-base font-semibold h-[50px] transition-css
+        px-14 sm:px-40 
+        `}>       
                 
             <a className="hover:text-myPurple focus:text-myPurple" href="/#">
-                    Packages
+                    Services
             </a>
 
             <a className="hover:text-myPurple focus:text-myPurple" href="/#">
-                    Features
+                    FAQ
             </a>
 
             <a className="hover:text-myPurple focus:text-myPurple" href="/#">

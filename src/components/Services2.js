@@ -10,23 +10,23 @@ return(
 
     <div className= 
     {`container mx-auto
-    flex items-center justify-between gap-10
-    md:pr-5 lg:pr-3 xl:pr-10 2xl:pr-32
+    flex flex-col sm:flex-row items-center justify-between sm:gap-10
+    px-8 sm:pr-10 md:pr-5 lg:pr-8 lg:pl-0 xl:pr-10 2xl:pr-32 2xl:pb-20
     `}>
-        <div className= {``}>
+
+        <div className= {`order-2 sm:order-1`}>
             <img src= {image4} className= {``}/>
             
         </div>
 
-        <div>
-            <div className= 
-            {`
-            `}>
+        
+        <div className= {`order-1 sm:order-2`}>
 
                 <h1 className= 
                 {`text-[40px] lg:text-[45px] 2xl:text-[60px] 
                 leading-10 lg:leading-[1.20] 
-                font-extrabold font-manrope 
+                font-extrabold font-manrope
+                
                 `}>
 
                 Daily active users<br/>on social media
@@ -57,15 +57,15 @@ return(
                 </a>
 
                 <img src= {sVector} className=
-                {`hidden sm:block relative bottom-16 left-48 
+                {`relative bottom-16 left-48 
                 sm:left-40 sm:bottom-20
                 md:bottom-16 md:left-40
                 lg:left-48
                 h-16 md:h-auto 
                 `}/>
 
-            </div>
         </div>
+        
 
     </div>
 
