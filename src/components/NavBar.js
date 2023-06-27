@@ -13,11 +13,11 @@ return(
     <div className= 
     {`container mx-auto h-14 sm:h-24
     flex justify-between items-center
-    px-4 md:px-8 2xl:px-16
+    sm:pt-0 px-4 md:px-8 2xl:px-16
     `}>     
           
         <h2 className= 
-        {`text-3xl md:text-xl lg:text-3xl font-bold
+        {`text-2xl lg:text-3xl font-bold
         md:pb-[2px] lg:pb-0
         `}> Influencer
         </h2>
@@ -28,7 +28,7 @@ return(
       text-sm lg:text-base font-semibold
       `}>
 
-        <a href="#" className= "flex items-center gap-1 dropdown" >
+        <div className= "flex items-center gap-1 dropdown" >
             
 
             <div className="dropdown-content">
@@ -37,9 +37,9 @@ return(
                 <a href="#" className="">Link 3</a>
             </div>
 
-        </a>
+        </div>
     
-        <a href="#" className= "flex items-center gap-1 dropdown">
+        <div className= "flex items-center gap-1 dropdown">
 
             <p className= 
                 {`cursor-pointer transition duration-300 
@@ -61,7 +61,7 @@ return(
             </div>
 
             
-        </a>
+        </div>
         
         <a href="#" className= 
         {`hover:text-myPurple cursor-pointer 
