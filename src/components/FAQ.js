@@ -5,7 +5,7 @@ export function FAQ() {
 return(
 
 <>
-<section className= "bg-gray-100 antialiased">
+<section className= "bg-white antialiased">
 
     <div className= 
     {`container mx-auto

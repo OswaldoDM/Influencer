@@ -9,7 +9,7 @@ return (
 
 <>
 
-<section className= "antialiased bg-gray-100">
+<section className= "antialiased bg-white">
 
     <div className= 
         {`container mx-auto

@@ -8,7 +8,7 @@ export function NavBar() {
 
 return(
 <>
-<nav className="bg-gray-100 antialiased">
+<nav className="bg-white antialiased">
 
     <div className= 
     {`container mx-auto h-14 sm:h-24
